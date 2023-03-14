@@ -920,27 +920,37 @@ a {
   outline: 1px solid #b59f5b;
 }
 
-.radio-label:nth-child(n+2) {
-  margin-left: 16px;
+.toggle-container {
+  display: inline-block;
 }
 
-.radio-text:before {
+.radio-label::before {
   content: "";
-  display: inline-block;
   width: 16px;
   height: 16px;
-  background-image: 
-    url("/svg/form-empty-circle.svg");
-  background-repeat: no-repeat;
+  display: inline-block;
+  background-image: url("/svg/form-empty-circle.svg");
   background-position: center center;
+  background-repeat: no-repeat;
   background-size: 16px;
-  vertical-align: middle;
-  margin-right: 5px;
 }
 
+.radio-button:checked + .radio-label {
+  content: "";
+  width: 16px;
+  height: 16px;
+  /* display: inline-block; */
+  background-image: url("/svg/form-circle.svg");
+  /* background-position: center center; */
+  background-repeat: no-repeat;
+  background-size: 16px;
+}
+
+
+
 .radio-button {
-/*   -webkit-appearance: none; */
-/*   -moz-appearance: none; */
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .text-area-container {

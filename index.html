@@ -659,9 +659,7 @@
       <div class="cross-container">
         <span class="cross">&times;</span>
       </div>
-      
       <h2 class="popup-title">Ваш фидбек</h2>
-      
       <form class="popup-form">
         <div class="form-wrapper-text">
           <p class="form-text">Как часто вы заходите на сайт?</p>
@@ -687,14 +685,19 @@
             <p class="form-text">Вы подписаны на e-mail рассылку?</p>
           </div>
           <div class="radio-container">
-            <label for="toggle-yes" class="radio-label">
-              <input id="toggle-yes" type="radio" name="question" class="radio-button" checked>
-              <span class="radio-text">Да</span>
-            </label>
-            <label class="radio-label">
-              <input type="radio" name="question" class="radio-button">
-              <span class="radio-text">Нет</span>
-            </label>
+            <div class="toggle-container">
+              <input id="radio-toggle-yes" type="radio" name="question" class="radio-button" checked>
+              <label for="radio-toggle-yes" class="radio-label">
+                <span class="radio-text">Да</span>
+              </label>
+            </div>
+            <div class="toggle-container">
+              <input id="radio-toggle-no" type="radio" name="question" class="radio-button">
+              <label for="radio-toggle-no" class="radio-label">
+                <span class="radio-text">Нет</span>
+              </label>
+            </div>
+            
           </div>
         </div>
         <div class="text-area-container">
