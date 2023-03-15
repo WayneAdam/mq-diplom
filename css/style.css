@@ -922,9 +922,14 @@ a {
 
 .toggle-container {
   display: inline-block;
+  box-sizing: border-box;
 }
 
-.radio-label::before {
+.toggle-container:nth-child(n+2) {
+  margin-left: 8px;
+}
+
+.radio-label:before {
   content: "";
   width: 16px;
   height: 16px;
@@ -933,20 +938,12 @@ a {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 16px;
+  vertical-align: middle;
 }
 
-.radio-button:checked + .radio-label {
-  content: "";
-  width: 16px;
-  height: 16px;
-  /* display: inline-block; */
+.radio-button:checked + .radio-label:before { 
   background-image: url("/svg/form-circle.svg");
-  /* background-position: center center; */
-  background-repeat: no-repeat;
-  background-size: 16px;
 }
-
-
 
 .radio-button {
   -webkit-appearance: none;
