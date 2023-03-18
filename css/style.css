@@ -147,6 +147,7 @@ a {
   margin: 0 auto 8px auto;
 }
 
+                        /* TRANDS */
 .main-items-wrapper {
   width: 100%; 
 }
@@ -219,22 +220,22 @@ a {
 
 .first-trands-posts {
   background-image: 
-    url("/images/trend1.jpg");
+    url("../images/trend1.jpg");
 }
 
 .second-trands-posts {
   background-image: 
-    url("/images/trend2.jpg");
+    url("../images/trend2.jpg");
 }
 
 .third-trands-posts {
   background-image: 
-    url("/images/trend3.jpg");
+    url("../images/trend3.jpg");
 }
 
 .fourth-trands-posts {
   background-image: 
-    url("/images/trend4.jpg");
+    url("../images/trend4.jpg");
 }
 
 .trands-inside-wrapper {
@@ -910,7 +911,7 @@ a {
   padding-right: 19px;
   color: rgba(0, 0, 0, 0.54);
   background-image: 
-    url("/svg/form-arrows.svg");
+    url("../svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 14px center;
   background-size: 9px 18px;
@@ -934,7 +935,7 @@ a {
   width: 16px;
   height: 16px;
   display: inline-block;
-  background-image: url("/svg/form-empty-circle.svg");
+  background-image: url("../svg/form-empty-circle.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 16px;
@@ -942,7 +943,7 @@ a {
 }
 
 .radio-button:checked + .radio-label:before { 
-  background-image: url("/svg/form-circle.svg");
+  background-image: url("../svg/form-circle.svg");
 }
 
 .radio-button {
