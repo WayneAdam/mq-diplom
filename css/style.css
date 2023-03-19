@@ -66,7 +66,7 @@ a {
 }
 
 .header-box {
-  width: 1170px;
+  width: 100%;
   max-width: 1200px;
   padding-left: 10px;
   padding-right: 10px;
@@ -77,6 +77,7 @@ a {
 }
 
 .menu-box {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -125,7 +126,8 @@ a {
 }
 
 .header-title {
-  width: 695px;
+  width: 100%;
+  max-width: 695px;
   font-size: 45px;
   font-weight: bold;
   color: #ffffff;
@@ -142,20 +144,31 @@ a {
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   max-width: 1200px;
-  padding: 0 15px 0;
   margin: 0 auto 8px auto;
+}
+
+.main-page {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+  
 }
 
                         /* TRANDS */
 .main-items-wrapper {
-  width: 100%; 
+  width: 100%;
+  margin: 0 auto; 
 }
 
 .main-items-section {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -179,6 +192,7 @@ a {
 }
 
 .trands-posts-wrapper {
+  box-sizing: border-box;
   display: flex;
   justify-content: center;
   margin-bottom: 64px;
@@ -214,7 +228,7 @@ a {
   z-index: 1;
 }
 
-.trands-posts:nth-child(n+2) {
+.trands-posts:nth-of-type(n+2) {
   margin-left: 4px;
 }
 
@@ -239,6 +253,8 @@ a {
 }
 
 .trands-inside-wrapper {
+  box-sizing: border-box;
+  width: 100%;
   border: 3px solid rgba(181, 159, 91, 0.6);
   margin-bottom: 16px;
   padding: 32px 32px;
@@ -247,8 +263,10 @@ a {
 }
 
 .trands-tags-list {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   margin-bottom: 10px;
 }
 
@@ -273,6 +291,11 @@ a {
   text-decoration: underline;
 }
 
+.trends-title-container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
 .trends-title {
   font-size: 20px;
   font-weight: 700;
@@ -286,17 +309,12 @@ a {
 .trends-title-link:hover {
   color: #b59f5b;
 }
-
-.main-page { 
-  max-width: 1200px;
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: nowrap;
-}
+                  /* END TRANDS */
 
 .post-list {
   box-sizing: border-box;
-  width: 787px;
+  width: 66.41%;
+  max-width: 797px;
 }
 
 .content-item { 
@@ -409,8 +427,13 @@ a {
                 /* ASIDE-TITLE */
 .aside-items { 
   box-sizing: border-box;
-  width: 279px;
-  margin-left: 117px;
+  width: 33.58%;
+  max-width: 403px;
+}
+
+.sidebar-wrapper {
+  width: 70.96%;
+  margin-left: auto;
 }
 
 .aside-title-container { 
@@ -665,31 +688,59 @@ a {
               /* OUR PRODUCTS */
 
 .our-products-section {
-  min-width: 1170px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  padding-left: 34px;
+  padding-right: 34px;
 }
 
 .shop-wrapper {
+  box-sizing: border-box;
   display: flex;
-  justify-content: space-between;
-  width: 1170px;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .shop-article {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 33.33%;
 }
 
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 347px;
+  width: 100%;
+}
+
+.our-products-pics {
+  width: 100%;
+  max-width: 300px;
+}
+
+.shop-img {
+  width: 100%;
+  max-width: 300px;
+}
+
 .shop-posts {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  width: 300px;
+  width: 100%;
   margin-top: -35px;
   z-index: 1;
   border: 3px solid #d3c59d;
@@ -757,13 +808,14 @@ a {
 
                   /* FOOTER */
 .section-footer {
-  width: 1170px;
+  width: 100%;
+  max-width: 1200px;
   margin: 64px auto 0;
 }
 
 .footer-container {
   display: flex;
-  width: 1170px;
+  width: 100%;
   height: 83px;
   justify-content: center;
   align-items: center;
@@ -824,7 +876,7 @@ a {
 }
 
 .copyrights-container {
-  width: 1170px;
+  width: 100%;
   margin-bottom: 40px;
 }
 
@@ -990,4 +1042,175 @@ a {
 
 .popup-wrapper {
   display: none;
+}
+
+.menu-button {
+  display: none;
+}
+
+                  /* MEDIA TABLET */
+@media screen and (min-width: 641px) and (max-width: 1200px) {
+
+                      /* HEADER */
+  .header-box {
+    padding-top: 43px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  .header-title {
+    font-size: 40px;
+  }
+
+  .menu-button {
+    display: inline-block;
+  }
+
+  .menu-button {
+    width: 23px;
+    height: 19px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer;
+    text-indent: -9999px;
+    z-index: 1;
+  }
+
+  .menu-button::before {
+    top: 0;
+  }
+
+  .menu-button::before, .menu-button::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+  }
+
+  .menu-button::after {
+    bottom: 0;
+  }
+
+  .open-menu {
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -0.1em;
+  }
+
+  .menu-list {
+    display: none;
+  }  
+                    /* HEADER END */
+
+                      /* MAIN */
+  .main-title {
+    font-size: 18px;
+  }
+
+  .post-list {
+    display: flex;
+    flex-direction: column;
+    width: 55.59%;
+  }
+
+
+
+  .content-item {
+    flex-direction: column;
+    
+    padding-bottom: 19px;
+    margin-bottom: 41px;
+  }
+
+  .content-item:nth-of-type(n+1):nth-of-type(-n+4) {
+    border-bottom: 3px solid #eeeeee;
+  }
+
+  .main-page {
+    padding: 0 35px;
+    justify-content: space-between;
+  }
+
+  .sidebar-wrapper {
+    margin: 0;
+    width: 100%;
+  }
+
+  .post-img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .post-item-link {
+    font-size: 17px;
+  }
+
+  .meta-info {
+    margin-bottom: 37px;
+  }
+
+                      /* ASIDE */
+  .aside-items {
+    width: 39%;
+  }
+                  /* ASIDE END  */
+                    /* MAIN END */
+
+                    /* TRANDS */
+  .trands-posts-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .trands-posts {
+    width: 49.73%;
+  }
+
+  .trands-posts:nth-of-type(n+2) {
+    margin-left: 0;
+  }
+
+
+  .trands-posts:nth-of-type(2n+2) {
+    margin-left: 4px;
+  }
+
+  .trands-posts:nth-of-type(1n+3) {
+    margin-top: 3px;
+  }
+
+  .trends-title {
+    font-size: 17px;
+  }
+                  /* TRANDS END */
+
+                /* OUR PRODUCTS */
+  .shop-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .shop-article {
+    width: 48.21%;
+  }
+
+  .shop-img {
+    max-height: 226px;
+  }
+
+  .shop-posts {
+    min-height: 264px;
+  }
+
+  .shops-titles {
+    font-size: 17px;
+  }
 }
