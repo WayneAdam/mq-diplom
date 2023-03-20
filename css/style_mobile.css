@@ -1,0 +1,243 @@
+                    /* HEADER */
+.header-box {
+  min-height: 639px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.menu-box {
+  flex-direction: column-reverse;
+  align-items: end;
+  margin-bottom: 45px;
+}
+
+.noemi-logo {
+  align-self: center;
+  margin: 174px 0 0;
+}
+
+.logo-img {
+  width: 100%;
+  max-width: 269px;
+}
+
+.header-title {
+  font-size: 26px;
+  line-height: 36px;
+}
+                    /* BUTTON */
+.menu-button {
+  display: inline-block;
+  width: 23px;
+  height: 19px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  font-size: 13px;
+  position: relative;
+  cursor: pointer;
+  text-indent: -9999px;
+  z-index: 1;
+}
+
+.menu-button::before {
+  top: 0;
+}
+
+.menu-button::before, .menu-button::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+}
+
+.menu-button::after {
+  bottom: 0;
+}
+
+.open-menu {
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.1em;
+}
+
+.menu-list {
+  display: none;
+}
+
+                /* BUTTON END */
+                /* HEADER END */
+
+                  /* TRANDS */
+.main-title {
+  font-size: 16px;
+}
+
+.trands-posts-wrapper {
+  flex-wrap: wrap;
+  margin-bottom: 44px;
+}
+
+.trands-posts {
+  width: 100%;
+  padding: 16px 16px;
+}
+
+.trands-posts:nth-of-type(n+2) {
+  margin: 3px 0 0;
+}
+
+.trends-title {
+  font-size: 16px;
+}
+                /* TRANDS END */
+
+                  /* MAIN */
+.main {
+  margin: 0 auto 44px auto;
+}
+.main-page {
+  flex-direction: column;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.post-list {
+  width: 100%;
+}
+
+.content-item {
+  flex-direction: column;
+  margin-bottom: 35px;
+  border-bottom: 3px solid #eeeeee;
+}
+
+.post-img {
+  margin: 0 0;
+}
+
+.section-content {
+  margin-bottom: 21px;
+}
+
+.post-item-link {
+  font-size: 16px;
+}
+
+.post-item-content {
+  font-size: 14px;
+}
+
+                /* ASIDE */
+.aside-title-container {
+  font-size: 16px;
+}
+
+.aside-items {
+  width: 100%;
+  max-width: none;
+}
+
+.sidebar-wrapper {
+  width: 100%;
+  margin-left: 0 0;
+}
+
+.tag-cloud-item {
+  margin: 0 0;
+}
+
+.tag-cloud-item:nth-of-type(n+2):nth-of-type(-n+4) {
+  margin-left: 6px;
+}
+
+.tag-cloud-item:nth-of-type(5n) {
+  margin-right: 6px;
+  margin-top: 6px;
+}
+
+.tag-cloud-item:nth-of-type(n+6):nth-of-type(-n+8) {
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+.search-form {
+  margin: 60px 0 45px 0;
+}
+
+.subscribe-button {
+  margin-bottom: 44px;
+}
+
+.tag-cloud {
+  margin-bottom: 44px;
+}
+
+.first-thems-item {
+  padding-bottom: 13px;
+}
+
+.themes-item:nth-child(n+2) {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.search-hidden-label {
+  flex-grow: 1;
+}
+              /* ASIDE END */
+              /* MAIN END */
+
+            /* OUR PRODUCTS */
+.our-products-section {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.shop-wrapper {
+  flex-direction: column;
+}
+
+.shop-article {
+  width: 100%;
+}
+
+.shop-article:nth-of-type(n+2) {
+  margin-top: 27px;
+}
+
+.shops-titles {
+  font-size: 17px;
+}
+          /* OUR PRODUCTS END */
+
+              /* FOOTER */
+.section-footer {
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 43px auto 0;
+}
+
+.footer-container {
+  margin-bottom: 50px;
+}
+              /* FOOTER END */
+
+                /* POPUP */
+.cross {
+  position: absolute;
+  display: inline-block;
+  font-size: 55px;
+  font-weight: 360;
+  color: #ffffff;
+  top: -58px;
+  right: -3px;
+}
+              /* POPUP END */
