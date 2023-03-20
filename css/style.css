@@ -567,7 +567,7 @@ a {
   background-color: #b59f5b;
   vertical-align: middle;
   cursor: pointer;
-  background-image: url("/svg/search.svg");
+  background-image: url("../svg/search.svg");
   background-repeat: no-repeat;
   background-size: 18px;
   background-position: center;
