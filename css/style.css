@@ -841,7 +841,7 @@ a {
 
 .dribbble-image {
   background-image: 
-    url("/svg/001-dribbble.svg");
+    url("../svg/001-dribbble.svg");
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -849,7 +849,7 @@ a {
 
 .pinterest-image {
   background-image: 
-    url("/svg/002-pinterest.svg");
+    url("../svg/002-pinterest.svg");
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -857,7 +857,7 @@ a {
 
 .tumblr-image {
   background-image: 
-    url("/svg/003-tumblr.svg");
+    url("../svg/003-tumblr.svg");
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
