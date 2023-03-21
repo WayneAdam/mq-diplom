@@ -122,6 +122,10 @@
   margin: 0 0;
 }
 
+.post-pic {
+  width: 100%;
+}
+
 .section-content {
   margin-bottom: 21px;
 }
